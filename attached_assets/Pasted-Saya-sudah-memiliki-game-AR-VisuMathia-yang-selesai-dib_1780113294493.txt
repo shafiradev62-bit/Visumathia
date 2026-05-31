@@ -1,0 +1,264 @@
+Saya sudah memiliki game AR VisuMathia yang selesai dibuat.
+
+Tolong JANGAN mengubah gameplay, misi, scoring, flow scene, atau storyboard yang sudah ada.
+
+Fokus hanya pada peningkatan pengalaman Augmented Reality agar terasa seperti memakai kacamata 3D premium di Timezone atau wahana edukasi interaktif.
+
+Implementasikan improvement berikut:
+
+1. TRUE DEPTH FEEL
+
+Semua objek AR harus memiliki kesan keluar dari marker.
+
+gunakan dynamic scaling berdasarkan posisi kamera
+aktifkan real-time shadow
+tambahkan ambient occlusion ringan
+tambahkan depth fog tipis
+gunakan soft contact shadow di bawah objek
+
+Target:
+Anak merasa objek benar-benar berdiri di atas meja dan bukan sekadar gambar 3D menempel.
+
+2. PARALLAX EFFECT
+
+Saat user menggerakkan HP:
+
+objek depan bergerak lebih cepat
+objek belakang bergerak lebih lambat
+
+Buat efek parallax layer:
+
+Foreground
+Midground
+Background
+
+Contoh:
+
+Scene Kamar:
+
+teddy bear = foreground
+tempat tidur = midground
+wallpaper kamar = background
+
+Efek harus halus dan realtime.
+
+3. CINEMATIC AR CAMERA
+
+Tambahkan:
+
+camera smoothing
+damped movement
+slight inertia
+
+Saat marker terdeteksi:
+
+kamera melakukan zoom in kecil otomatis
+muncul efek reveal
+
+Durasi 1 detik.
+
+Tujuan:
+memberikan efek "wow".
+
+4. OBJECT EMERGENCE ANIMATION
+
+Ketika marker pertama kali terdeteksi:
+
+Jangan langsung spawn.
+
+Lakukan:
+
+scale 0 → 100%
+bounce
+particle burst
+glow pulse
+
+Durasi:
+0.7–1.2 detik.
+
+Semua scene wajib menggunakan efek ini.
+
+5. HOLOGRAM EFFECT
+
+Tambahkan holographic aura tipis pada:
+
+Vimo
+Kristal Final Mission
+Petunjuk arah
+
+Shader:
+
+fresnel glow
+rim light
+soft blue emission
+
+Jangan berlebihan.
+
+6. DEPTH PARTICLES
+
+Tambahkan partikel 3D yang bergerak di ruang.
+
+Contoh:
+
+Scene 02
+
+debu cahaya
+
+Scene 03
+
+gelembung udara
+
+Scene 04
+
+sparkle buah
+
+Scene 07
+
+partikel jalan bercahaya
+
+Scene 10
+
+magic stars
+
+Partikel harus memiliki jarak Z berbeda agar terasa volume ruang.
+
+7. SPATIAL AUDIO
+
+Upgrade semua audio menjadi spatial.
+
+Implementasikan:
+
+3D Audio Source
+distance attenuation
+stereo positioning
+
+Contoh:
+
+Jika Vimo di kanan marker,
+suara sedikit berasal dari kanan.
+
+Jika mobil bergerak menjauh,
+volume ikut mengecil.
+
+8. VIMO AS A REAL COMPANION
+
+Vimo tidak boleh diam.
+
+Tambahkan:
+
+Idle random:
+
+kedip mata
+lihat kiri kanan
+melambai kecil
+loncat kecil
+ekspresi senang
+
+Interval acak:
+3–8 detik.
+
+Vimo harus terasa hidup.
+
+9. AR OCCLUSION
+
+Gunakan depth occlusion.
+
+Jika tersedia ARCore/ARKit:
+
+objek dapat tertutup sebagian oleh benda nyata
+
+Contoh:
+saat ada tangan lewat di depan kamera,
+objek tidak selalu tampil menembus tangan.
+
+10. TOUCH FEEDBACK PREMIUM
+
+Saat anak menyentuh objek:
+
+Tambahkan kombinasi:
+
+scale bounce
+glow flash
+particle pop
+sound click lucu
+haptic feedback
+
+Durasi:
+0.2–0.4 detik.
+
+11. FLOATING WORLD EFFECT
+
+Seluruh dunia AR tidak statis.
+
+Berikan floating motion sangat kecil:
+
+naik turun 1–2 cm
+sangat lambat
+
+Agar terasa hidup.
+
+12. SCENE-SPECIFIC WOW MOMENTS
+
+Scene 02:
+teddy bear melambai saat disentuh.
+
+Scene 03:
+bola melayang dan berputar.
+
+Scene 04:
+buah mengeluarkan sparkle.
+
+Scene 05:
+jawaban benar memunculkan trail bintang.
+
+Scene 06:
+koin meloncat ke kamera.
+
+Scene 07:
+mobil meninggalkan light trail.
+
+Scene 08:
+balok menyala saat posisi benar.
+
+Scene 09:
+video keluar sedikit dari frame poster.
+
+Scene 10:
+kristal terbang mengelilingi Vimo.
+
+13. FINAL MISSION GRAND FINALE
+
+Saat semua kristal terkumpul:
+
+confetti 3D
+portal cahaya
+kamera orbit
+Vimo menari
+particle storm
+certificate reveal animation
+
+Durasi:
+5–8 detik.
+
+Harus menjadi momen paling spektakuler di seluruh aplikasi.
+
+PERFORMANCE REQUIREMENT
+
+Target Device:
+
+Android 8+
+RAM 4GB
+
+FPS:
+minimal 30 FPS
+
+Optimasi:
+
+object pooling
+LOD
+baked lighting jika memungkinkan
+particle budget rendah
+texture atlas
+
+Jangan mengubah gameplay yang sudah ada.
+Hanya meningkatkan kualitas pengalaman AR, kedalaman visual, dan rasa imersif seperti memakai kacamata 3D premium.

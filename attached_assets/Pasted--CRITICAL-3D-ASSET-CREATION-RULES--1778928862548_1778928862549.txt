@@ -1,0 +1,241 @@
+==================================================
+CRITICAL 3D ASSET CREATION RULES
+==================================================
+
+The current 3D assets look incorrect because they resemble:
+- primitive geometry
+- Roblox-style placeholders
+- Unity starter assets
+- AI-generated toy geometry
+- smooth rounded cubes
+- fake stylized assets
+
+THIS IS STRICTLY FORBIDDEN.
+
+==================================================
+NEVER CREATE ASSETS USING:
+==================================================
+
+- simple cubes
+- capsules
+- spheres
+- cylinders
+- bevelled primitives
+- stretched geometry
+- geometric abstraction
+- shape-only props
+
+Do NOT fake objects using primitive forms.
+
+Every object must feel:
+- intentionally designed
+- sculpted
+- handcrafted
+- believable
+- rich in detail
+- emotionally appealing
+
+==================================================
+HOW PROFESSIONAL GAME ASSETS ARE BUILT
+==================================================
+
+Every prop must include:
+
+1. PRIMARY FORM
+- recognizable silhouette
+- unique shape identity
+- appealing proportions
+
+2. SECONDARY FORMS
+- layered details
+- support shapes
+- structure breakup
+- visual interest
+
+3. TERTIARY DETAILS
+- seams
+- wood cuts
+- screws
+- stitching
+- toy surface details
+- tiny imperfections
+- decorative carvings
+
+==================================================
+OBJECTS MUST NEVER LOOK:
+==================================================
+
+- mathematically generated
+- perfectly symmetrical
+- smooth and empty
+- geometry-only
+- procedurally primitive
+
+==================================================
+OBJECT SILHOUETTE RULES
+==================================================
+
+Each object needs:
+- unique silhouette
+- asymmetrical detail
+- readable shape language
+- visual charm
+
+Examples:
+BAD:
+- cube bookshelf
+- cylinder tree
+- sphere fruit
+- capsule character
+
+GOOD:
+- bookshelf with curved wood framing
+- tree with layered leaf clusters
+- fruit with dents and stylized stem
+- character with layered costume parts
+
+==================================================
+MATERIAL BREAKUP RULES
+==================================================
+
+Every object surface must contain:
+- texture variation
+- edge highlights
+- soft painted gradients
+- subtle wear
+- material separation
+- layered shading
+
+NO:
+- flat colors
+- default materials
+- smooth plastic look
+
+==================================================
+CHILDREN GAME STUDIO QUALITY
+==================================================
+
+Assets should resemble:
+- handcrafted Pixar props
+- Nintendo environment assets
+- Toca Boca world props
+- Animal Crossing objects
+- premium mobile game assets
+
+NOT:
+- Roblox
+- Minecraft
+- AI primitive geometry
+- Unity placeholders
+
+==================================================
+PROP DENSITY RULES
+==================================================
+
+Every scene must contain:
+- hero props
+- supporting props
+- tiny decorative props
+- ambient environmental details
+
+Example bedroom:
+NOT JUST:
+- bed
+- shelf
+- table
+
+INSTEAD ADD:
+- folded blanket
+- hanging stars
+- toy stickers
+- plush dolls
+- books with bookmarks
+- wall drawings
+- pillows with patterns
+- scattered toys
+- curtains
+- glowing night lamp
+- floor mat
+- tiny clutter
+
+==================================================
+TREE DESIGN RULES
+==================================================
+
+Trees MUST NOT be:
+- sphere on stick
+- lollipop trees
+- cylinder trunks
+
+Trees MUST contain:
+- layered leaf clusters
+- stylized branch structure
+- asymmetrical canopy
+- color variation
+- stylized roots
+- hand-crafted silhouette
+
+==================================================
+BUILDING DESIGN RULES
+==================================================
+
+Buildings MUST NOT be:
+- cubes with windows
+
+Buildings MUST include:
+- curved roofs
+- playful proportions
+- decorative trims
+- layered windows
+- stylized doors
+- environmental props
+- depth variation
+
+==================================================
+CHARACTER DESIGN RULES
+==================================================
+
+Characters MUST NOT:
+- use capsule limbs
+- use sphere heads
+- use primitive anatomy
+
+Characters must include:
+- layered clothing
+- expressive face topology
+- stylized hair shapes
+- costume accessories
+- asymmetrical details
+- appealing silhouette
+
+==================================================
+ENVIRONMENT RULES
+==================================================
+
+Environments must feel:
+- handcrafted
+- layered
+- intentionally composed
+- lived-in
+- playful
+
+Avoid:
+- open empty planes
+- random object placement
+- sparse decoration
+
+==================================================
+CRITICAL RULE:
+==================================================
+
+At all times ask:
+
+"Does this object look like:
+- a real handcrafted game studio asset?
+
+OR
+
+- a primitive geometry shape?"
+
+If it resembles primitive geometry:
+REDESIGN IT COMPLETELY.

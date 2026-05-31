@@ -1,0 +1,283 @@
+==================================================
+MASTER CARTOON SPRITE + BUTTON GENERATION SYSTEM
+NINTENDO / TOCA BOCA / AAA KIDS GAME QUALITY
+==================================================
+
+All sprites, buttons, icons, UI assets, and decorative elements must be FULLY CARTOONIZED.
+
+DO NOT create:
+- generic UI assets
+- flat vector graphics
+- stock illustrations
+- emoji-style assets
+- geometric placeholders
+- AI-generated sticker look
+- clipart style
+- SVG dashboard icons
+- simple gradients
+- flat mobile app buttons
+
+==================================================
+TARGET QUALITY
+==================================================
+
+The art quality must resemble:
+- Nintendo children games
+- Toca Boca
+- Sago Mini
+- Animal Crossing
+- Pokémon overworld UI
+- Duolingo Kids
+- Pixar-style educational apps
+
+The entire interface must feel:
+- handcrafted
+- emotionally expressive
+- illustrated
+- warm
+- playful
+- premium
+- tactile
+
+==================================================
+SPRITE CREATION RULES
+==================================================
+
+Every sprite must:
+- have unique silhouette
+- use hand-painted shading
+- contain stylized highlights
+- contain painterly gradients
+- contain depth and layering
+- have emotional readability
+- use playful proportions
+- feel designed by real illustrators
+
+==================================================
+SPRITE STYLE
+==================================================
+
+Sprites should feel:
+- soft
+- rounded
+- expressive
+- toy-like
+- charming
+- premium
+
+NOT:
+- vector-flat
+- corporate
+- geometric
+- AI-placeholder
+
+==================================================
+SPRITE TEXTURE SYSTEM
+==================================================
+
+All sprites must contain:
+- painted shadows
+- subtle brush texture
+- soft ambient occlusion
+- warm rim lighting
+- color variation
+- layered gradients
+- edge lighting
+
+NO:
+- flat fills
+- monotone colors
+- smooth AI gradients
+- textureless surfaces
+
+==================================================
+CHARACTER SPRITE RULES
+==================================================
+
+Characters must include:
+- expressive eyes
+- stylized cheeks
+- soft facial shading
+- asymmetrical charm
+- layered clothing
+- cartoon proportions
+- emotional poses
+
+Characters must NEVER:
+- resemble generic AI mascots
+- use geometric anatomy
+- use capsule limbs
+- use sphere heads
+
+==================================================
+BUTTON DESIGN SYSTEM
+==================================================
+
+Buttons must feel:
+- chunky
+- toy-like
+- squeezable
+- tactile
+- magical
+
+Buttons should resemble:
+- toy buttons
+- Nintendo buttons
+- magical cartoon UI
+- children storybook interfaces
+
+==================================================
+BUTTON VISUAL RULES
+==================================================
+
+Every button must contain:
+- layered cartoon shading
+- thick soft highlights
+- warm shadows
+- curved asymmetrical shape
+- texture variation
+- playful depth
+- hand-painted lighting
+- stylized border detail
+
+==================================================
+BUTTON SHAPE RULES
+==================================================
+
+Buttons MUST NOT:
+- be perfect rectangles
+- use generic rounded divs
+- use plain CSS pills
+- use simple gradients
+
+Buttons MUST:
+- have custom silhouette
+- feel sculpted
+- feel illustrated
+- feel physically touchable
+
+==================================================
+BUTTON INTERACTION RULES
+==================================================
+
+Hover:
+- soft glow
+- slight bounce
+- light movement
+- magical particles
+
+Tap:
+- squash & stretch
+- overshoot
+- sparkle burst
+- tactile compression
+
+Correct interaction:
+- stars
+- confetti
+- magical glow
+- reward animation
+
+==================================================
+ICON SYSTEM
+==================================================
+
+Icons must:
+- be illustrated manually
+- use cartoon shading
+- have playful exaggeration
+- contain texture and depth
+
+NO:
+- outline SVG icons
+- heroicons
+- lucide icons
+- material icons
+- minimalist icon systems
+
+==================================================
+WORLD UI INTEGRATION
+==================================================
+
+Buttons should be integrated INTO the world.
+
+Examples:
+- wooden sign buttons
+- glowing portal buttons
+- candy-like controls
+- floating magical stars
+- toy block navigation
+- sticker-like menu items
+
+NOT:
+- floating HTML cards
+- generic menus
+- plain overlays
+
+==================================================
+COLOR & LIGHTING SYSTEM
+==================================================
+
+Use:
+- warm pastel colors
+- emotional lighting
+- painterly highlights
+- magical glow
+- cozy saturation
+
+Avoid:
+- sterile gradients
+- corporate palettes
+- monochrome UI
+- gray dashboard colors
+
+==================================================
+MICRO DETAIL SYSTEM
+==================================================
+
+Add:
+- tiny scratches
+- stitching
+- painted texture
+- carved edges
+- toy seams
+- sticker shadows
+- subtle imperfections
+
+These details create:
+- handcrafted feeling
+- premium quality
+- non-AI appearance
+
+==================================================
+ANTI-AI ART RULES
+==================================================
+
+If the sprite resembles:
+- AI sticker art
+- vector illustration
+- flat SVG art
+- generic mobile game UI
+- dashboard graphics
+- startup illustrations
+
+REDESIGN IT COMPLETELY.
+
+==================================================
+FINAL QUALITY CHECK
+==================================================
+
+At all times ask:
+
+"Does this look like:
+- a handcrafted Nintendo-quality game asset?
+
+OR
+
+- AI-generated UI art?"
+
+If it looks AI-generated:
+REDESIGN IT.
+
+If it feels handcrafted and emotionally expressive:
+continue.

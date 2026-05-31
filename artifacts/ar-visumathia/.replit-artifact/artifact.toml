@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "AR-VisuMathia"
+version = "1.0.0"
+id = "artifacts/ar-visumathia"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20551
+
+[services.development]
+run = "pnpm --filter @workspace/ar-visumathia run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ar-visumathia", "run", "build" ]
+publicDir = "artifacts/ar-visumathia/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20551"
+BASE_PATH = "/"

@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "CeYQHVssEj-fQhF7EEYON"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/vimo_idle.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "PuBvfYXBJBZ88zrWp8Ska"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/vimo_celebrate.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "smbPluHr-6ivlK-ktMtgE"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene1_portal.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "gQfoGqeyz5d4wUQJ6A99l"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene2_bedroom.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Tptf_Gt_NSwX4s6trFs4T"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene3_playground.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "x7Zbs47r2Bv5WaQ4e92jC"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene4_kitchen.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Hx7KZRfGgJTD17P0ygKDU"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene5_classroom.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "yEGG9ObYuP53LC-DLamYz"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene6_market.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "rWzaFGdYTsN39IhKOcRnU"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene7_city.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "T8pECcOdDLYJi3IUlafbG"
+uri = "file://artifacts/ar-visumathia/src/assets/sprites/scene8_construction.png"
+type = "image"
+title = "generated_image"

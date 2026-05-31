@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Vimo's AR World — Kids Educational Adventure"
+version = "1.0.0"
+id = "artifacts/vimo-ar-world"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22012
+
+[services.development]
+run = "pnpm --filter @workspace/vimo-ar-world run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/vimo-ar-world", "run", "build" ]
+publicDir = "artifacts/vimo-ar-world/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22012"
+BASE_PATH = "/"

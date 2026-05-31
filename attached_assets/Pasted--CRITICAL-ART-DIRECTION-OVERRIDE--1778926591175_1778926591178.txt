@@ -1,0 +1,182 @@
+==================================================
+CRITICAL ART DIRECTION OVERRIDE
+==================================================
+
+The current visual output looks like:
+- generic AI UI
+- SaaS dashboard
+- template game menu
+- floating card interface
+- fake glassmorphism
+- placeholder game prototype
+
+THIS IS WRONG.
+
+The game must NOT look like:
+- ChatGPT generated UI
+- startup dashboard
+- admin panel
+- generic mobile app
+- figma template
+- dribbble glassmorphism clone
+
+==================================================
+YOU MUST SWITCH TO:
+"NINTENDO / TOCA BOCA / AAA MOBILE KIDS GAME"
+QUALITY DIRECTION
+==================================================
+
+The interface must feel:
+- handcrafted
+- illustrated
+- art-directed
+- alive
+- cinematic
+- emotional
+- toy-like
+- playful
+- layered
+
+==================================================
+NO MORE:
+==================================================
+
+- centered floating cards
+- empty backgrounds
+- random blurry circles
+- sterile gradients
+- generic rounded rectangles
+- minimal SaaS layouts
+- plain panels
+
+==================================================
+INSTEAD:
+==================================================
+
+Create:
+- illustrated environments
+- layered scene compositions
+- decorative background storytelling
+- environmental depth
+- stylized game menus
+- animated world maps
+- playful scene framing
+- immersive menu worlds
+
+Menus should feel like:
+- part of the game world
+- not HTML overlays
+
+==================================================
+MENU DESIGN RULES
+==================================================
+
+The menu must look like:
+- a magical room
+- a toy world
+- a floating island
+- a cartoon environment
+
+NOT a settings dashboard.
+
+Buttons should exist INSIDE environments:
+- attached to trees
+- hanging signs
+- floating stars
+- toy blocks
+- magical portals
+
+==================================================
+BACKGROUND RULES
+==================================================
+
+NO EMPTY BACKGROUNDS.
+
+Backgrounds must contain:
+- landscapes
+- mountains
+- clouds
+- toys
+- floating islands
+- animated props
+- environmental motion
+- layered parallax
+
+==================================================
+SPRITE STYLE DIRECTION
+==================================================
+
+ALL sprites must look:
+- hand-crafted
+- expressive
+- polished
+- Nintendo-quality
+- like Nano Banana / Toca Boca quality
+
+DO NOT generate:
+- flat AI vectors
+- generic SVG illustrations
+- clipart style
+- geometric placeholders
+
+==================================================
+SPRITE GENERATION STYLE
+==================================================
+
+Generate sprites with:
+- painterly texture
+- soft shading
+- expressive outlines
+- charming imperfections
+- layered highlights
+- playful proportions
+- emotional facial expressions
+
+STYLE REFERENCES:
+- Nano Banana
+- Toca Boca
+- Sago Mini
+- Pokémon overworld softness
+- Animal Crossing charm
+
+==================================================
+UI SHOULD FEEL PHYSICAL
+==================================================
+
+Buttons should feel:
+- touchable
+- chunky
+- toy-like
+- tactile
+
+Panels should feel:
+- carved
+- illustrated
+- part of the world
+
+==================================================
+CREATE A REAL GAME WORLD
+==================================================
+
+Every screen must feel:
+- like a location
+- like a place
+- like a playable world
+
+NOT:
+- a webpage
+
+==================================================
+IMPORTANT
+==================================================
+
+The visual identity must prioritize:
+1. World-building
+2. Character charm
+3. Environmental storytelling
+4. Emotional warmth
+5. Stylized handcrafted art
+
+UI comes LAST.
+
+The world itself is the interface.

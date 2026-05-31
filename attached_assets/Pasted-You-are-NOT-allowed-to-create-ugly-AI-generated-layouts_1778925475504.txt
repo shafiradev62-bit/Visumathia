@@ -1,0 +1,478 @@
+You are NOT allowed to create:
+- ugly AI-generated layouts
+- generic UI
+- primitive geometry worlds
+- random low-quality assets
+- developer-looking interfaces
+- flat placeholder environments
+- basic cubes/spheres pretending to be assets
+- ugly gradients
+- empty scenes
+- stock game templates
+- cheap mobile game visuals
+
+You are creating a PREMIUM COMMERCIAL-QUALITY WEB AR GAME.
+
+==================================================
+PROJECT
+==================================================
+
+TITLE:
+AR-VisuMathia
+
+TYPE:
+Web-based Augmented Reality educational game for children age 5–8.
+
+GOAL:
+The experience must feel like:
+- an App Store featured kids game
+- emotionally warm
+- magical
+- cinematic
+- polished
+- modern
+- premium
+- handcrafted
+
+The game must look GOOD ENOUGH to impress:
+- clients
+- university researchers
+- parents
+- teachers
+- investors
+
+==================================================
+VISUAL DIRECTION
+==================================================
+
+MAIN STYLE:
+Stylized 3D cartoon world.
+
+NOT realistic.
+NOT flat UI.
+NOT minimalist startup dashboard.
+NOT cyberpunk.
+NOT generic AI art.
+
+REFERENCE QUALITY:
+- Toca Boca
+- Sago Mini
+- Pok Pok
+- Duolingo Kids
+- PBS Kids
+- Monument Valley softness
+- Disney Junior color harmony
+
+ART DIRECTION:
+- soft rounded shapes
+- smooth curves
+- playful proportions
+- handcrafted feel
+- premium educational game quality
+- vibrant but balanced colors
+- soft ambient lighting
+- cozy environments
+- cinematic composition
+- emotional storytelling through environments
+
+WORLD FEEL:
+The game world must feel:
+- magical
+- safe
+- educational
+- happy
+- dreamy
+- child-friendly
+- imaginative
+
+==================================================
+VERY IMPORTANT — ASSET RULES
+==================================================
+
+DO NOT use:
+- raw primitive geometry
+- default cubes
+- default spheres
+- default materials
+- default fonts
+- wireframe look
+- empty rooms
+- flat-color placeholders
+
+ALL assets must feel:
+- stylized
+- intentional
+- handcrafted
+- game-ready
+- premium
+
+ENVIRONMENTS MUST INCLUDE:
+- layered props
+- decorative objects
+- shadows
+- ambient details
+- depth
+- floating particles
+- animated background life
+- subtle animations
+- environmental storytelling
+
+==================================================
+3D STYLE RULES
+==================================================
+
+3D STYLE:
+- stylized low poly
+- smooth edges
+- rounded silhouettes
+- baked soft lighting
+- hand-painted texture feeling
+- subtle gradients
+- soft AO shadows
+- cute proportions
+
+NO hard edges.
+NO realistic PBR metal workflow.
+NO gray materials.
+
+TEXTURE STYLE:
+- pastel
+- playful
+- soft saturation
+- painterly
+- warm highlights
+- subtle texture variation
+
+==================================================
+UI / UX RULES
+==================================================
+
+UI MUST LOOK:
+- premium
+- modern
+- animated
+- soft
+- tactile
+- child-friendly
+
+UI STYLE:
+- rounded corners
+- floating cards
+- layered depth
+- soft shadows
+- smooth transitions
+- bouncy interactions
+- playful buttons
+- animated feedback
+- glowing rewards
+
+NO:
+- sharp rectangles
+- bootstrap look
+- admin panel style
+- generic AI UI
+- plain HTML buttons
+
+BUTTONS MUST:
+- bounce slightly
+- glow on hover
+- animate on tap
+- feel satisfying
+
+PANELS MUST:
+- float
+- have blur
+- have depth
+- feel soft and magical
+
+==================================================
+COLOR SYSTEM
+==================================================
+
+PRIMARY COLORS:
+- sky blue
+- sunflower yellow
+- coral orange
+- mint green
+- lavender
+- peach pink
+
+LIGHTING:
+- warm sunlight
+- soft ambient glow
+- dreamy shadows
+- magical highlights
+
+BACKGROUND:
+- animated skies
+- moving clouds
+- floating particles
+- distant mountains
+- colorful landscapes
+
+==================================================
+AR SYSTEM
+==================================================
+
+THIS IS A FULL WEB AR EXPERIENCE.
+
+TECH STACK:
+- React
+- Vite
+- Three.js
+- React Three Fiber
+- Drei
+- MindAR
+- Framer Motion
+- TailwindCSS
+- GSAP
+- Howler.js
+- Zustand
+
+DO NOT use Unity.
+DO NOT use Unreal.
+
+==================================================
+AR TRACKING SYSTEM
+==================================================
+
+Implement:
+- image tracking
+- stable marker tracking
+- smooth object anchoring
+- AR persistence
+- lost tracking recovery
+- camera permission handling
+- mobile optimization
+
+WHEN MARKER IS LOST:
+- gracefully fade objects
+- pause interactions
+- show animated guidance UI
+- smoothly recover scene
+
+AR OBJECTS MUST:
+- lock naturally to marker
+- feel stable
+- not jitter aggressively
+- preserve scale consistency
+
+==================================================
+SCENE STRUCTURE
+==================================================
+
+Create 10 complete scenes:
+
+1. Magical Intro Portal World
+2. Interactive Bedroom
+3. Playground Shape World
+4. Kitchen Counting World
+5. Classroom Pattern World
+6. Mini Market
+7. Road Navigation City
+8. Toy Construction World
+9. Interactive AR Video World
+10. Final Adventure Map
+
+Each scene must feel:
+- unique
+- memorable
+- alive
+- immersive
+- cinematic
+
+==================================================
+SCENE DETAILING RULES
+==================================================
+
+EVERY SCENE MUST INCLUDE:
+- background ambiance
+- decorative props
+- animated particles
+- environmental animation
+- layered depth
+- smooth transitions
+- child-friendly composition
+
+BEDROOM SCENE:
+- cozy lighting
+- plush toys
+- books
+- glowing stars
+- soft furniture
+- warm atmosphere
+
+PLAYGROUND:
+- colorful slides
+- balloons
+- clouds
+- moving swings
+- playful movement
+
+KITCHEN:
+- fruit bounce animation
+- warm colors
+- cozy family atmosphere
+- animated cooking details
+
+ROAD SCENE:
+- tiny animated traffic
+- soft city atmosphere
+- road signs
+- animated lights
+
+TOY WORLD:
+- magical toy shelf
+- rotating toys
+- glowing construction grid
+
+==================================================
+ANIMATION RULES
+==================================================
+
+ALL interactions must feel alive.
+
+Use:
+- squash and stretch
+- easing
+- bounce
+- anticipation
+- overshoot
+- floating idle animation
+- particle bursts
+- reward effects
+
+NOT stiff.
+NOT robotic.
+
+==================================================
+CHARACTER SYSTEM — VIMO
+==================================================
+
+Create Vimo:
+- adorable robot mascot
+- blue + yellow
+- expressive eyes
+- smooth face animation
+- emotionally appealing
+
+Vimo animations:
+- idle breathing
+- wave
+- clap
+- jump
+- dance
+- think
+- celebrate
+- sad reaction
+
+Vimo must feel:
+- lovable
+- premium animated
+- emotionally expressive
+
+==================================================
+AUDIO DIRECTION
+==================================================
+
+Audio style:
+- magical
+- cozy
+- soft
+- satisfying
+
+Include:
+- UI pop sounds
+- sparkle sounds
+- celebration jingles
+- ambient music
+- interaction feedback
+- smooth transitions
+
+==================================================
+PERFORMANCE RULES
+==================================================
+
+This MUST run smoothly on:
+- Android phones
+- school tablets
+- low-mid devices
+
+Optimization:
+- low poly assets
+- texture atlases
+- baked lighting
+- lazy loading
+- compressed textures
+- optimized draw calls
+- efficient shaders
+
+Target:
+- stable 30–60 FPS
+
+==================================================
+CAMERA & CINEMATIC RULES
+==================================================
+
+Use:
+- cinematic framing
+- soft camera movement
+- smooth zoom transitions
+- dynamic composition
+- emotional scene presentation
+
+NO static boring camera.
+
+==================================================
+LOADING EXPERIENCE
+==================================================
+
+Create:
+- animated loading screen
+- floating stars
+- magical transitions
+- cute loading mascot
+- smooth progress animation
+
+==================================================
+FINAL QUALITY BAR
+==================================================
+
+The final result MUST feel:
+- handcrafted
+- premium
+- emotionally engaging
+- investor presentation ready
+- app store ready
+- client presentation ready
+
+If any scene looks:
+- generic
+- empty
+- AI-generated
+- template-looking
+- low quality
+
+then redesign it automatically until it reaches premium quality.
+
+==================================================
+DELIVERABLES
+==================================================
+
+Generate:
+- complete architecture
+- reusable components
+- asset pipeline
+- full WebAR implementation
+- all scenes
+- UI system
+- animation system
+- sound system
+- responsive mobile design
+- deployment setup
+- polished production-ready code
+
+IMPORTANT:
+Do not stop at prototype quality.
+
+Push visual quality as high as possible while keeping performance optimized for web.

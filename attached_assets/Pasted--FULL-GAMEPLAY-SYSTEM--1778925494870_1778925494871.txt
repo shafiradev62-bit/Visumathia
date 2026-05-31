@@ -1,0 +1,364 @@
+==================================================
+FULL GAMEPLAY SYSTEM
+==================================================
+
+This is NOT a static AR viewer.
+
+This is a FULLY INTERACTIVE EDUCATIONAL GAME.
+
+The player must constantly:
+- touch
+- drag
+- rotate
+- match
+- count
+- explore
+- solve
+- build
+- discover
+- receive feedback
+
+The game must feel:
+- playful
+- rewarding
+- emotionally engaging
+- interactive every few seconds
+
+==================================================
+CORE GAMEPLAY LOOP
+==================================================
+
+LOOP:
+1. Vimo introduces challenge
+2. Child explores scene
+3. Child interacts with AR objects
+4. System gives immediate feedback
+5. Reward animation plays
+6. Child progresses
+7. Scene difficulty increases slightly
+8. Celebration moment
+9. Unlock next activity
+
+The player should NEVER feel idle.
+
+Every 3–5 seconds:
+- something animates
+- reacts
+- sparkles
+- moves
+- responds
+
+==================================================
+CHILD PSYCHOLOGY DESIGN
+==================================================
+
+The experience must be designed specifically for children age 5–8.
+
+RULES:
+- low frustration
+- immediate feedback
+- forgiving interactions
+- emotional encouragement
+- visual rewards
+- audio reinforcement
+- simple readable goals
+- tactile interactions
+
+Never punish harshly.
+
+Wrong answers should:
+- gently guide
+- encourage retry
+- provide hints
+- animate softly
+
+==================================================
+FEEDBACK SYSTEM
+==================================================
+
+CORRECT ANSWER:
+- stars explode
+- sparkle particles
+- happy sound
+- Vimo celebrates
+- object bounces
+- glowing effect
+
+WRONG ANSWER:
+- soft wobble
+- gentle sound
+- hint appears
+- encouraging voice line
+
+NO harsh failure screens.
+
+==================================================
+SCENE FLOW
+==================================================
+
+Each scene must contain:
+1. Intro animation
+2. Guided tutorial
+3. Interactive tasks
+4. Mini reward moments
+5. Final celebration
+6. Transition to next world
+
+==================================================
+SCENE 1 — INTRO WORLD
+==================================================
+
+GOAL:
+Create emotional excitement.
+
+FLOW:
+- Magical sky world appears
+- Floating islands animate
+- Vimo flies in
+- Portals open with particles
+- Child taps Vimo
+- Vimo reacts emotionally
+- Portal selection animation
+- Camera zoom transition
+
+INTERACTIONS:
+- tap Vimo
+- choose portal
+- rotate camera slightly
+
+==================================================
+SCENE 2 — BEDROOM GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- drag teddy bear onto bed
+- place ball under table
+- move books into shelf
+- find hidden objects
+- spatial positioning challenges
+
+INTERACTION RULES:
+- object highlights on hover
+- drag feels smooth
+- snap zones glow
+- wrong zones shake softly
+- correct zones pulse green
+
+ADDITIONAL LIFE:
+- curtains move slightly
+- floating dust particles
+- ambient room sound
+- toy idle animation
+
+==================================================
+SCENE 3 — PLAYGROUND GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- identify shapes
+- compare object sizes
+- sort colored balls
+- count moving objects
+
+DYNAMIC ELEMENTS:
+- swings move
+- balloons float
+- birds fly
+- clouds animate
+
+REWARD:
+- confetti cannons
+- bouncing stars
+- cheering sound
+
+==================================================
+SCENE 4 — KITCHEN GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- count fruits
+- drag numbers
+- sort food by type
+- subtraction animation
+
+INTERACTION FEEL:
+- fruit squish animation
+- juicy bounce motion
+- playful sound effects
+
+ENVIRONMENT:
+- steam animation
+- cozy sunlight
+- kitchen ambience
+
+==================================================
+SCENE 5 — PATTERN GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- complete visual patterns
+- sequence recognition
+- create own patterns
+
+SPECIAL UX:
+- slot previews
+- animated hints
+- glowing answer slots
+
+==================================================
+SCENE 6 — MINI MARKET GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- shopping missions
+- item collection
+- quantity counting
+- size comparison
+- color grouping
+
+SPECIAL FEATURES:
+- animated shopping basket
+- coin reward system
+- satisfying checkout animation
+
+==================================================
+SCENE 7 — ROAD GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- directional navigation
+- stop/go system
+- traffic understanding
+- left/right decisions
+
+SPECIAL FEATURES:
+- animated traffic lights
+- moving cars
+- road sounds
+- city ambience
+
+CAMERA:
+- top-down cinematic AR view
+
+==================================================
+SCENE 8 — TOY CONSTRUCTION GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- build structures
+- rotate blocks
+- match silhouettes
+- balance towers
+
+INTERACTION:
+- realistic snapping
+- smooth rotation
+- satisfying placement
+
+SPECIAL EFFECTS:
+- glowing construction grid
+- magical placement particles
+
+==================================================
+SCENE 9 — VIDEO AR GAMEPLAY
+==================================================
+
+GAMEPLAY:
+- interactive educational videos
+- pause challenges
+- tap answers during playback
+
+VIDEO EXPERIENCE:
+- cinematic overlay
+- smooth transitions
+- immersive playback
+
+==================================================
+SCENE 10 — FINAL MISSION
+==================================================
+
+GAMEPLAY:
+Combine ALL previous mechanics.
+
+FLOW:
+- giant adventure map
+- crystal collection
+- multi-stage challenges
+- final celebration
+- certificate reward
+
+FINAL MOMENT:
+Must feel emotional and rewarding.
+
+==================================================
+INTERACTION SYSTEM
+==================================================
+
+ALL interactions must feel:
+- tactile
+- responsive
+- smooth
+- playful
+
+Add:
+- hover response
+- touch scaling
+- bounce easing
+- soft glow feedback
+- particle response
+
+==================================================
+REWARD SYSTEM
+==================================================
+
+Create:
+- stars
+- badges
+- crystal collection
+- happy sounds
+- celebration sequences
+- progress tracking
+
+Children must constantly feel successful.
+
+==================================================
+EMOTIONAL PACING
+==================================================
+
+The game should alternate between:
+- calm exploration
+- active interaction
+- rewarding moments
+- magical transitions
+
+Avoid:
+- repetitive pacing
+- static screens
+- dead moments
+
+==================================================
+ANTI-AI LOOK RULES
+==================================================
+
+DO NOT create:
+- repetitive layouts
+- repeated asset placement
+- random clutter
+- generic AI compositions
+- sterile scenes
+
+Every environment must feel:
+- handcrafted
+- intentionally designed
+- emotionally composed
+- professionally art directed
+
+==================================================
+FINAL GOAL
+==================================================
+
+The final experience should feel like:
+“a premium children’s AR adventure game made by a real game studio.”
+
+NOT:
+“an AI-generated prototype.”

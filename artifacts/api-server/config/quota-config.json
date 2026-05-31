@@ -1,0 +1,45 @@
+{
+  "router": {
+    "endpoint": "http://localhost:20128",
+    "dashboardPort": 20128,
+    "healthCheckInterval": 30000,
+    "retryAttempts": 3,
+    "timeout": 30000
+  },
+  "rateLimiting": {
+    "enabled": true,
+    "maxRequestsPerMinute": 60,
+    "burstAllowance": 10,
+    "slidingWindow": true
+  },
+  "caching": {
+    "enabled": true,
+    "ttlSeconds": 3600,
+    "maxCacheSize": 1000,
+    "cacheStrategy": "memory",
+    "excludePatterns": [
+      "/v1/models",
+      "/v1/embeddings",
+      "/v1/images/generations"
+    ]
+  },
+  "quota": {
+    "maxTokensPerDay": 100000,
+    "warningThreshold": 0.7,
+    "criticalThreshold": 0.9,
+    "emergencyThreshold": 0.95
+  },
+  "monitoring": {
+    "enabled": true,
+    "logLevel": "info",
+    "metricsInterval": 60000,
+    "alertChannels": ["log"]
+  },
+  "optimization": {
+    "batchRequests": true,
+    "batchSize": 5,
+    "dedupeRequests": true,
+    "compressResponses": true,
+    "fallbackToCache": true
+  }
+}

@@ -1,0 +1,322 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: AR-VisuMathia game API
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: progress
+    description: Player progress and game state
+  - name: scenes
+    description: Scene completion and star ratings
+  - name: rewards
+    description: Stars, badges, crystals earned
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  /progress:
+    get:
+      operationId: getProgress
+      tags: [progress]
+      summary: Get player progress
+      description: Returns the overall game progress for the default player
+      responses:
+        "200":
+          description: Player progress
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PlayerProgress"
+
+  /progress/reset:
+    post:
+      operationId: resetProgress
+      tags: [progress]
+      summary: Reset player progress
+      description: Resets all progress to start fresh
+      responses:
+        "200":
+          description: Progress reset
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PlayerProgress"
+
+  /scenes:
+    get:
+      operationId: listScenes
+      tags: [scenes]
+      summary: List all scenes with status
+      description: Returns all 10 scenes with their completion status and stars earned
+      responses:
+        "200":
+          description: List of scenes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Scene"
+
+  /scenes/{sceneId}:
+    get:
+      operationId: getScene
+      tags: [scenes]
+      summary: Get scene details
+      parameters:
+        - name: sceneId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Scene details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Scene"
+        "404":
+          description: Scene not found
+
+  /scenes/{sceneId}/complete:
+    post:
+      operationId: completeScene
+      tags: [scenes]
+      summary: Mark a scene as completed
+      parameters:
+        - name: sceneId
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SceneCompletionInput"
+      responses:
+        "200":
+          description: Scene completion recorded
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Scene"
+
+  /rewards:
+    get:
+      operationId: getRewards
+      tags: [rewards]
+      summary: Get all earned rewards
+      description: Returns total stars, badges, and crystals collected
+      responses:
+        "200":
+          description: Reward totals
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RewardSummary"
+
+  /rewards/claim:
+    post:
+      operationId: claimReward
+      tags: [rewards]
+      summary: Claim a reward
+      description: Add stars/crystals/coins earned from an interaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RewardInput"
+      responses:
+        "200":
+          description: Reward claimed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RewardSummary"
+
+  /stats:
+    get:
+      operationId: getStats
+      tags: [progress]
+      summary: Get game statistics summary
+      description: Returns aggregate stats — scenes completed, total play time, stars earned, accuracy rate
+      responses:
+        "200":
+          description: Game statistics
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GameStats"
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
+    PlayerProgress:
+      type: object
+      properties:
+        id:
+          type: integer
+        totalStars:
+          type: integer
+        totalCrystals:
+          type: integer
+        totalCoins:
+          type: integer
+        currentScene:
+          type: integer
+        scenesCompleted:
+          type: integer
+        totalPlayTimeSeconds:
+          type: integer
+        createdAt:
+          type: string
+        updatedAt:
+          type: string
+      required:
+        - id
+        - totalStars
+        - totalCrystals
+        - totalCoins
+        - currentScene
+        - scenesCompleted
+        - totalPlayTimeSeconds
+        - createdAt
+        - updatedAt
+
+    Scene:
+      type: object
+      properties:
+        id:
+          type: integer
+        sceneNumber:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        isUnlocked:
+          type: boolean
+        isCompleted:
+          type: boolean
+        starsEarned:
+          type: integer
+        maxStars:
+          type: integer
+        bestScore:
+          type: integer
+        playCount:
+          type: integer
+        category:
+          type: string
+      required:
+        - id
+        - sceneNumber
+        - name
+        - description
+        - isUnlocked
+        - isCompleted
+        - starsEarned
+        - maxStars
+        - bestScore
+        - playCount
+        - category
+
+    SceneCompletionInput:
+      type: object
+      properties:
+        starsEarned:
+          type: integer
+        score:
+          type: integer
+        playTimeSeconds:
+          type: integer
+      required:
+        - starsEarned
+        - score
+        - playTimeSeconds
+
+    RewardSummary:
+      type: object
+      properties:
+        totalStars:
+          type: integer
+        totalCrystals:
+          type: integer
+        totalCoins:
+          type: integer
+        badges:
+          type: array
+          items:
+            type: string
+      required:
+        - totalStars
+        - totalCrystals
+        - totalCoins
+        - badges
+
+    RewardInput:
+      type: object
+      properties:
+        stars:
+          type: integer
+        crystals:
+          type: integer
+        coins:
+          type: integer
+        badge:
+          type: ["string", "null"]
+      required:
+        - stars
+        - crystals
+        - coins
+
+    GameStats:
+      type: object
+      properties:
+        totalScenesCompleted:
+          type: integer
+        totalStars:
+          type: integer
+        totalPlayTimeSeconds:
+          type: integer
+        averageStarsPerScene:
+          type: number
+        mostRecentScene:
+          type: integer
+        completionPercentage:
+          type: number
+      required:
+        - totalScenesCompleted
+        - totalStars
+        - totalPlayTimeSeconds
+        - averageStarsPerScene
+        - mostRecentScene
+        - completionPercentage
